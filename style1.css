@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.feature h1{
+	color:  #0066ff;
+	font-family: sans-serif;
+	margin-left: 10%;
+	font-size: 30px;
+	margin-top: 20px;
+}
+.slider-box{
+	width: 90%;
+	height: 90vh;
+	margin: 30px 100px;
+	position: relative;
+}
+#slider{
+	width: 100%;
+	display: inline-flex;
+	transition: 0.7s;
+}
+#slider img{
+	width: 650px;
+	height: 450px;
+	margin-left: 30px;
+
+}
+.indicator{
+	position: absolute;
+	left: 65%;
+	right: 20px;
+	margin-top: 20px;
+	transform: translateX(-50%);
+}
+.indicator span{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background: black;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .feature {
+    background-color: grey;
+  }
+}
